@@ -1,0 +1,365 @@
+/* Place your CSS styles in this file */
+
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+html background {opacity:.11;}
+header{max-width: 100%;}
+header img{align:center;}
+header img {
+	width: 100%;                      /* 80 / 990 normally, but using 100% in this case */
+	max-width: 1416px;                     /* native size */
+	min-width: 40px;
+/*	float: left;
+/*	margin-left: 2.0202%;                /* 20 / 990 */
+        margin-left: 1.067%;                /* 20 / 990 */
+        padding-bottom: 2em;
+}
+/* the styles for the navigation  */
+nav    {  text-align: right;
+/*          background-color:#FFFFFF; */
+		margin:0;
+		padding-top:0.5em;
+		padding-bottom:.5em;
+		padding-right:0;
+		position: fixed; top: 0; left: 0; 
+		z-index: 9999;
+		width: 100%;
+		height:auto;
+		 }		
+nav ul { list-style-type: none;
+         margin: 0;
+		 padding-right: 2em;	
+         font-size: 1.2em;		 
+}
+nav li { display: inline; 
+         padding-left:1em;
+		 width:20%;}
+	 
+nav a {text-decoration: none;}
+nav a:link {color: #314076;}	
+nav a:visited {color: #c72e36;}
+nav a:hover {color: #3ab8bb;}
+li,dd {font-size: 90%;}
+
+/* the styles for the section */
+section {
+	width: 95%;                            /* 535 / 990 */
+	/*float: left;   /*
+    margin: 0 auto;
+	margin-left: 2.0202%;             /* 20 / 990 */
+	margin-right: 2.0202%; 
+	padding: 1.5em 2.52525% 0 0;      /* 25 / 990 */
+}
+head p {font-size:152%; text-align:center;}
+* the styles for the footer */
+.footercl {text-align: center;
+		font-style: italic;
+		font-size: small;
+		color:#a22358;
+		clear: right;
+		}
+.black     {color:#292f36;font-size: 120%;
+            display: block;
+           margin-left: auto;
+           margin-right: auto;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}	  
+.centerTitle {
+  text-align:center;
+  font-size:122%;
+  font-weight:bold;
+  font:Brush Script MT;
+  color:#314076;
+}	  
+.podcast-container {
+    position: relative;
+    padding-bottom: 16.25%;
+    padding-top: 35px;
+    height: 0;
+	color:#a22358;
+    overflow: hidden;
+}
+
+.podcast-container iframe {
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 75%;
+    height: 75%;
+}
+#flow {display:block;}  	
+#container{width: 100%; height: 100%; overflow: hidden;}	
+/*table*/
+table { border: 1px solid #40407A;
+        color:#000000; 
+        margin-bottom:1em;
+        margin-left:auto;margin-right:auto;
+/*		min-width:100px; */
+		border-collapse: collapse;
+        text-align:center;
+		
+		
+		}
+caption {caption-side: top;
+         text-align:center;
+         margin: 1em;
+		 font-weight: bold;
+		 font-size:120%;
+		 }
+/*td,th { border: 1px solid #40407A; padding: 0.5em;}*/
+td,th { border: 1px solid silver; padding: 0.5em;}
+tbody td{text-align: center; }
+tr:nth-of-type(even) { background-color:#edeff8;} 
+form { display: flex;
+       flex-flow: column nowrap;}
+input, datalist textarea { margin-bottom: .5em;}
+
+audio {
+    width: 210px;
+    height: 26.25px;
+    -webkit-appearance: none;
+}
+
+
+/* HIDE DOWNLOAD BUTTON OF AUDIO */
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+	-webkit-appearance: none;
+}
+audio::-webkit-media-controls-panel {
+ /*   width: calc(100% + 33px);*/
+    /*background-color: #94bddc;*/
+	background-color:#314076;
+	opacity:.91;
+    -webkit-appearance: none;
+}  
+audio::-webkit-media-controls-play-button {
+    -webkit-appearance: media-play-button;
+    display: flex;
+    flex: none;
+    border: none;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 9px;
+    margin-right: 9px;
+    padding: 0;
+    background-color: initial;
+	color:white;
+    /*color: inherit;*/
+}
+
+
+
+
+
+/*audio {margin-bottom:.25em; }
+    /*    max-height: 92%;
+    /*    max-width: 92%;}
+		
+/*		margin:auto;
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+}
+footer{
+    
+    
+    text-align:center;
+    font-size:small;
+    
+   /* padding-top: 40px; */
+    color: #fff;
+}
+footer p {
+	font-size: .6875em;
+	text-align: center;
+        color:#a22358;
+}
+
+#specialTable
+/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; border:none; 
+	}
+	th{display:none;}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: none;text-align:center; }
+	tr td:first-child {
+		font-weight: bold;
+		font-size:120%;
+	}
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		/*border-bottom: 1px solid #eee; */
+		position: relative;
+		padding-left: 5%; 
+		text-align:center;
+		font:120%;
+		
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		
+		/*padding-right: 10px; */
+		white-space: nowrap;
+		
+}
+
+
+}
+	/* media queries */
+
+/* decrease font sizes to keep content from rolling */
+@media only screen and (max-width: 886px) {
+    #specialTable tr td:first-child {
+		font-weight: bold;
+		font-size:100%;
+	}
+	section h1 {
+	    font-size: 1.5em;
+    }
+	#nav_menu ul li a {
+		font-size: .875em;
+	}
+}
+
+	
+/* decrease font sizes to keep content from rolling */
+@media only screen and (max-width: 837px) {
+	#specialTable tr td:first-child {
+		font-weight: bold;
+		font-size:120%;
+	}
+	section h2, aside h2 {
+		font-size: 1.125em;
+	}
+	aside h3 {
+	    font-size: .9375em;
+    }
+}
+header img {
+width: 100%}
+body {width:100%};
+section{100%;}
+/* remove floating from section, aside, and header image and display mobile menu */
+@media only screen and (max-width: 771px) {
+   #specialTable tr td:first-child {
+		font-weight: bold;
+		font-size:1.25em;
+	}   
+	section {text-align:center;}
+   
+    #mobile_menu {
+        display: block;
+    }
+    .slicknav_menu {
+        background-color: #facd8a !important;	
+    }
+    body {
+        width: 100%;                           /* full width of screen */
+        margin: .25em;                             /* no margins */
+        border: none;                          /* no border */
+    }
+    header, footer p {
+        text-align: center;
+    }
+
+	header img {
+        float: none;
+		margin-left: 0;
+    }
+    header h2 {
+        font-size: 1.625em;
+        margin: .4em 0 .25em 0;
+    }
+    header h3 {
+        font-size: 1em;                        /* base font size */
+        margin-left: 0;
+    }
+    footer p {
+		margin-right: 0;
+	}
+    section {
+        width: 92%;                       /* 100 - (2 * 2.0202) for padding */
+        float: none;
+        margin-right: 2.0202%;                 /* 20 / 990 */
+        padding-right: 0;
+    }
+	section h1 {
+		font-size: 120%;
+	}
+    aside {
+        width: 91.9192%;                       /* 100 - (4 * 2.0202) for padding and margins */
+        float: none;
+        margin: 0 2.0202% 2.0202% 2.0202%;     /* 20 / 990 */
+    }
+}
+
+/* decrease font sizes */
+@media only screen and (max-width: 480px) {
+	#specialTable tr td:first-child {
+		font-weight: bold;
+		font-size:101%;
+	}
+	header h2 {
+		font-size: 1.375em;
+	}
+	header h3 {
+		font-size: .875em;
+	}
+}
+
+/* decrease font sizes to prevent rolling */
+@media only screen and (max-width: 410px) {
+    #specialTable tr td:first-child {
+		font-weight: bold;
+		font-size:.9375em;
+	}
+	header h2, section h1, aside h2 {
+        font-size: .9375em;
+    }
+    header h3 {
+        font-size: .75em;
+    }
+	section h2 {
+        font-size: 1em;                        /* base font size */
+    }
+    aside h3 {
+        font-size: .9375em;
+    }
+    footer p {
+        font-size: .6875em;
+    }
+	section{width:96%;font-size:.9375em;}
+	body{width:96%;font-size:.9375em;}
+}
+
