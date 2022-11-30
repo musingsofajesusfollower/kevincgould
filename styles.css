@@ -66,6 +66,10 @@ head p {font-size:152%; text-align:center;}
             display: block;
            margin-left: auto;
            margin-right: auto;}
+.subheading{color:#292f36;font-size: 170%;
+            display: block;
+           margin-left: auto;
+           margin-right: auto;}
 .center {
   display: block;
   margin-left: auto;
@@ -73,9 +77,10 @@ head p {font-size:152%; text-align:center;}
 }	  
 .centerTitle {
   text-align:center;
-  font-size:122%;
+  font-size:295%;
   font-weight:bold;
   font:Brush Script MT;
+  text-shadow: 1px 1px 2px black;
   color:#314076;
 }	  
 .podcast-container {
@@ -189,7 +194,7 @@ footer{
 footer p {
 	font-size: .6875em;
 	text-align: center;
-        color:#a22358;
+        color:#c72e36;
 }
 
 #specialTable
