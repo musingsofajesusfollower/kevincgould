@@ -1,14 +1,14 @@
 /* Place your CSS styles in this file */
 
 
+
+html background {opacity:.11;}
+header{max-width: 100%;}
 h1 {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
 }
-html background {opacity:.11;}
-header{max-width: 100%;}
-
 header img {
 	width: 100%;                      /* 80 / 990 normally, but using 100% in this case */
 	max-width: 1210px;                     /* native size */
@@ -263,24 +263,22 @@ footer p {
 @media only screen and (max-width: 837px) {
 	#specialTable tr td:first-child {
 		font-weight: bold;
-		font-size:120%;
+		font-size:130%;
 	}
-	section h2, aside h2 {
+	section h2 {
 		font-size: 1.125em;
 	}
-	aside h3 {
-	    font-size: .9375em;
-    }
+	
 }
 header img {
 width: 100%}
-body {width:100%};
+body {width:96%};
 section{100%;}
 /* remove floating from section, aside, and header image and display mobile menu */
 @media only screen and (max-width: 771px) {
    #specialTable tr td:first-child {
 		font-weight: bold;
-		font-size:1.25em;
+		font-size:1.85em;
 	}   
 	section {text-align:center;}
    
@@ -348,24 +346,27 @@ section{100%;}
 @media only screen and (max-width: 410px) {
     #specialTable tr td:first-child {
 		font-weight: bold;
-		font-size:.9375em;
+		font-size:165%;
+	}
+	#specialTable td {
+		font-weight: bold;
+		font-size:165%;
 	}
 	header h2, section h1, aside h2 {
-        font-size: .9375em;
+        font-size: 1.125em;
     }
     header h3 {
         font-size: .75em;
     }
 	section h2 {
-        font-size: 1em;                        /* base font size */
+        font-size: 3em;                        /* base font size */
     }
-    aside h3 {
-        font-size: .9375em;
-    }
+   
     footer p {
-        font-size: .6875em;
+        font-size: .68%;
     }
-	section{width:96%;font-size:.9375em;}
-	body{width:96%;font-size:.9375em;}
+	section{width:100%;font-size:185%;}
+	body{width:100%;font-size:185%;}
 }
+audio{width:100%}
 
