@@ -128,8 +128,8 @@ form { display: flex;
 input, datalist textarea { margin-bottom: .5em;}
 
 audio {
-    width: 210px;
-    height: 26.25px;
+    width: 300px;
+    height: 25px;
     -webkit-appearance: none;
 }
 
@@ -365,8 +365,9 @@ section{100%;}
     footer p {
         font-size: .68%;
     }
+	
 	section{width:100%;font-size:185%;}
 	body{width:100%;font-size:185%;}
 }
-audio{width:100%}
+
 
